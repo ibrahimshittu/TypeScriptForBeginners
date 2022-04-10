@@ -6,7 +6,7 @@ function printResult(num: number): void { // Function with void return type
     console.log('Result: ' + num);
 }
 
-function AddandHandle(a: number, b: number, cb: (num: number) => void) { // Function with callback
+function AddandHandle(a: number, b: number, cb: (num: number) => void) { // Function with callback cb
     const result = a + b;
     cb(result);
 }
