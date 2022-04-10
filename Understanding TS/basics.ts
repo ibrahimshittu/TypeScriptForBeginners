@@ -1,4 +1,4 @@
-// Core TS types - number, string, boolean, object
+// Core TS types - number, string, boolean, object, array
 
 function add (n1: number, n2: number, showResult: boolean, phrase: string) {
     if (showResult) {
