@@ -1,1 +1,5 @@
-console.log("Hello World!");
+var object = {
+    name: 'Max',
+    age: 30
+};
+console.log(object);
