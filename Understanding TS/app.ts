@@ -22,6 +22,9 @@ const second_person = {
 let favoriteActivities: string[]; // Array of strings
 favoriteActivities = ['Sports'];
 
+let favoriteFood: any[]; // Array of any type (string, number, boolean, object, etc.), not good to use generally
+favoriteFood = ['Sports'];
+
 console.log(second_person.roles);
 
 for (const hobby of second_person.hobbies) {
