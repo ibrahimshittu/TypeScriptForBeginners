@@ -10,7 +10,7 @@ const person: {
     roles: [2, 'author']
 };
 
-enum Role { ADMIN, READ_ONLY, AUTHOR }; // Enum - Fixed values
+enum Role { ADMIN = 3, READ_ONLY = 'USER', AUTHOR = 'AUTHOR' }; // Enum - Fixed values
 
 const second_person = {
     name: 'Max',

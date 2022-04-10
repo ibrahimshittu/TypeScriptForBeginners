@@ -6,9 +6,9 @@ var person = {
 };
 var Role;
 (function (Role) {
-    Role[Role["ADMIN"] = 0] = "ADMIN";
-    Role[Role["READ_ONLY"] = 1] = "READ_ONLY";
-    Role[Role["AUTHOR"] = 2] = "AUTHOR";
+    Role[Role["ADMIN"] = 3] = "ADMIN";
+    Role["READ_ONLY"] = "USER";
+    Role["AUTHOR"] = "AUTHOR";
 })(Role || (Role = {}));
 ; // Enum - Fixed values
 var second_person = {
