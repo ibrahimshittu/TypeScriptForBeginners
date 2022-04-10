@@ -1,17 +1,11 @@
 var person = {
     name: 'Max',
     age: 30,
-    hobbies: ['Sports', 'Cooking']
+    hobbies: ['Sports', 'Cooking'],
+    roles: [2, 'author']
 };
 var favoriteActivities; // Array of strings
 favoriteActivities = ['Sports'];
-// const person2: {
-//     name: string;
-//     age: number
-// } || object = {
-//     name: 'Max',
-//     age: 30
-// };
 console.log(person.name);
 for (var _i = 0, _a = person.hobbies; _i < _a.length; _i++) {
     var hobby = _a[_i];

@@ -1,19 +1,17 @@
-const person = {
+const person: {
+    name: string;
+    age: number;
+    hobbies: string[];
+    roles: [number, string];
+} = {
     name: 'Max',
     age: 30, 
     hobbies: ['Sports', 'Cooking'],
+    roles: [2, 'author']
 };
 
 let favoriteActivities: string[]; // Array of strings
 favoriteActivities = ['Sports'];
-
-// const person2: {
-//     name: string;
-//     age: number
-// } || object = {
-//     name: 'Max',
-//     age: 30
-// };
 
 console.log(person.name);
 
