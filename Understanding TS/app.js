@@ -1,28 +1,11 @@
-var person = {
-    name: 'Max',
-    age: 30,
-    hobbies: ['Sports', 'Cooking'],
-    roles: [2, 'author']
-};
-var Role;
-(function (Role) {
-    Role[Role["ADMIN"] = 3] = "ADMIN";
-    Role["READ_ONLY"] = "USER";
-    Role["AUTHOR"] = "AUTHOR";
-})(Role || (Role = {}));
-; // Enum - Fixed values
-var second_person = {
-    name: 'Max',
-    age: 30,
-    hobbies: ['Sports', 'Cooking'],
-    roles: Role.AUTHOR // Enum 
-};
-var favoriteActivities; // Array of strings
-favoriteActivities = ['Sports'];
-var favoriteFood; // Array of any type (string, number, boolean, object, etc.), not good to use generally
-favoriteFood = ['Sports'];
-console.log(second_person.roles);
-for (var _i = 0, _a = second_person.hobbies; _i < _a.length; _i++) {
-    var hobby = _a[_i];
-    console.log(hobby.toUpperCase());
+function combine(n1, n2) {
+    if (typeof n1 === 'number' && typeof n2 === 'number') {
+        return n1 + n2;
+    }
+    else {
+        return n1.toString() + n2.toString();
+    }
 }
+var combinedAges = combine(30, 20);
+var combinesNames = combine("Ibrahim ", "Shittu");
+console.log(combinedAges, combinesNames);
