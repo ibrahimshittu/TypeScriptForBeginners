@@ -1,6 +1,6 @@
-// Core TS types - number, string, boolean, object, array, Tuple, Enum, Any
+// Core TS types - number, string, boolean, object, array, Tuple, Enum, Any, unknown, never
 
-function add (n1: number, n2: number, showResult: boolean, phrase: string) {
+function add(n1: number, n2: number, showResult: boolean, phrase: string) {
     if (showResult) {
         console.log(phrase + (n1 + n2));
     } else {
