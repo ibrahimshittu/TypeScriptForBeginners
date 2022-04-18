@@ -5,7 +5,7 @@ const person: {
     roles: [number, string]; // Tuple - fixed length array
 } = {
     name: 'Max',
-    age: 30, 
+    age: 30,
     hobbies: ['Sports', 'Cooking'],
     roles: [2, 'author']
 };
@@ -14,7 +14,7 @@ enum Role { ADMIN = 3, READ_ONLY = 'USER', AUTHOR = 'AUTHOR' }; // Enum - Fixed 
 
 const second_person = {
     name: 'Max',
-    age: 30, 
+    age: 30,
     hobbies: ['Sports', 'Cooking'],
     roles: Role.AUTHOR // Enum 
 };
