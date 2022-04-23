@@ -12,7 +12,12 @@
 
     /* Language and Environment */
     "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
-    // "lib": [],                                        /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    // "lib": [
+    //   "dom",                                           /* Include the ECMAScript Internationalization API (Intl) in the bundle. */
+    //   "dom.iterable",                                   /* Include the ECMAScript collection iterators (e.g. `Map`, `Set`, `WeakMap`, `WeakSet`) in the bundle. */                                         /* Include ECMAScript 6 proposals in the bundle. */
+    //   "es6",                                            /* Include ECMAScript 6 proposals in the bundle. */
+    //   "scripthost",                                     /* Include the ECMAScript script hosts (e.g. `Proxy`, `Reflect`, `Symbol`) in the bundle. */
+    // ],                                                /* Specify a set of bundled library declaration files that describe the target runtime environment. */
     // "jsx": "preserve",                                /* Specify what JSX code is generated. */
     // "experimentalDecorators": true,                   /* Enable experimental support for TC39 stage 2 draft decorators. */
     // "emitDecoratorMetadata": true,                    /* Emit design-type metadata for decorated declarations in source files. */
