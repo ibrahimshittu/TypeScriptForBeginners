@@ -100,7 +100,15 @@
   },
   "exclude": [
     // "analytics.ts",
-    // "*.dev.ts",
+    // "*.dev.ts",   Exclude all dev files. This is useful for local development.
+    // "**/*.dev.ts", any file in any folder ending in .dev.ts
     "node_modules"
-  ]
+  ], 
+  // "files": [
+  //   "app.ts"
+  // ]
+  // "include": [
+  //   "src/**/*.ts",
+  //   "src/**/*.tsx"
+  // ]
 }
